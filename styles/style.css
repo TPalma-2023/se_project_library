@@ -24,6 +24,7 @@
 .logo {
   height: 60px;
   width: 196px;
+  z-index: -1;
 }
 
 .nav__links {
@@ -58,6 +59,7 @@
   line-height: 30px;
   max-width: 532px;
   margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -191,7 +193,7 @@
 
 .person_name_feynman {
   top: -30px;
-  right: 319px;
+  left: 319px;
 }
 
 .person_name_burbidge {
@@ -400,14 +402,13 @@
   position: absolute;
   top: -121px;
   left: -91px;
+  z-index: -1;
 }
 
 .footer {
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: white;
-  font-size: 16px;
-  line-height: 20px;
   padding: 60px 102px 60px 80px;
 }
 
@@ -444,6 +445,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
